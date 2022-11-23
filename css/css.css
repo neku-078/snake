@@ -1,0 +1,104 @@
+
+/*總標籤設定*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.warp {
+    width : 600px;
+    margin : 0 auto;
+    position : relative;
+}
+
+p {
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+h1 {
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+h3 {
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+h6 {
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+#score {
+    text-align : center;
+    font-size : 20px;
+}
+
+#map {
+    margin : 0 auto;
+    border : 1px solid brown;
+}
+
+.row {
+    height : 20px;
+}
+
+/*background*/
+.column {
+    height : 20px;
+    width : 20px;
+    box-sizing : border-box;
+    background : rgb(255, 252, 243);
+    float : left;
+}
+
+/*snake*/
+.snake {
+    background-image: url('https://i.imgur.com/bGGH5iH.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*food*/
+.food {
+    background-image: url('https://i.imgur.com/76cCoj4.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+/*button*/
+#start {
+    border : 1px solid skyblue;
+    background : skyblue;
+    color : white;
+    width : 50px;
+    height : 30px;
+    border-radius : 5px;
+    margin-top : 10px;
+    margin-left : 10px;
+}
+
+#pause {
+    border : 1px solid 
+    palevioletred;
+    background : palevioletred;
+    color : white;
+    width : 50px;
+    height : 30px;
+    border-radius : 5px;
+    margin-top : 10px;
+    margin-left : 10px;
+}
+
+#restart {
+    border : 1px solid slateblue;
+    background : slateblue;
+    color : white;
+    width : 80px;
+    height : 30px;
+    border-radius : 5px;
+    margin-top : 10px;
+    margin-left : 10px;
+}

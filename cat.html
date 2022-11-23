@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="img/cat.ico" type="image/x-icon" />
+        <title>貪食貓貓怪</title>
+    </head>
+    <h1>貪食貓貓怪</h1>
+    <h6 style="font-family : monospace; size : 20px;">目標是把整個畫面佔領!!</h6>
+    <body>
+        <!--說明-->
+        <p style="font-family : monospace; size : 20px; color : brown">
+        藉由吃番茄來增生貓貓怪<br>
+        每增加一個貓貓怪，貓貓怪們的速度就會提高!<br>
+        若是撞牆或吃到隊伍中的貓貓怪便會失敗<br>
+        請努力的讓貓貓怪們吃到番茄吧(´・ω・｀)!
+        </p>
+        <!--分數-->
+        <h3 style="font-family : monospace; size : 20px; color : palevioletred">增生貓貓怪數量 : <span id = "score" style = "color : black">0</span></h3>
+        <div style = "text-align : center;">
+            <!--開始按鈕-->
+            <input id = "start" type = "button" name = "name" value = "開始">
+            <!--暫停按鈕-->
+            <input id = "pause" type = "button" name = "name" value = "暫停">
+            <!--重新按鈕-->
+            <input id = "restart" type = "button" name = "name" value = "重新開始">
+        </div>
+        <br>
+        <!--地圖-->
+        <div id = "map">
+            <script src = "code/game.js"></script>
+        </div>
+    </body>
+    <link rel = "stylesheet" href = "css/css.css">
+</html>
